@@ -1,0 +1,517 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar-nav{
+    margin-right: 15px;
+}
+.banner-top{width: 100%;
+    height: 450px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+.fa-gift{
+color: rgb(226, 16, 114);
+margin-right: -5px;
+}
+.Matchingcouples{
+    font-size: 37px;
+    margin-left: 50px;
+}
+.Matrimonial{margin-left: 50px;
+ margin-top: 60px;}
+.readmore{
+    margin-top: 30px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    padding: 2px 5px 2px 5px;
+    margin-left: 50px;
+}
+.navbar-brand{
+    margin-left: 60px;
+    font-size: 30px;
+
+}
+.pbox{
+    margin-left: 50px;
+
+}
+.rectangle1{
+    margin-top: 32px;
+    margin-left: 50px;
+    width: 8px;
+    height: 3px;
+    border: white;
+    background-color: white;
+}
+.rectangle2{
+    margin-top: -2px;
+    margin-left: 60px;
+    width: 8px;
+    height: 3px;
+    border: white;
+    background-color: rgba(0,0,0,0.5);}
+    .rectangle3{
+        margin-top: -2px;
+        margin-left: 70px;
+        width: 8px;
+        height: 3px;
+        border: white;
+        background-color: rgba(0,0,0,0.5);}
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin-top: 30px;
+        }
+        .form input{margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .formbackground{
+        display: flex;
+        justify-content:  center;
+        width: 400px;
+        height: 350px;
+        background-color: rgb(236, 229, 229);
+        margin-left: 190px;
+    }
+    select{
+        margin-bottom: 10px;
+        border-radius: 5px;
+        height: 30px;
+        outline: none;
+        border: 2px solid black;
+    }
+    
+        .register{
+            font-size: medium;
+            color: black;
+        }
+        .submit{height: 50px;
+            background-color: rgb(226, 16, 114);
+            color: white;
+        }
+        .terms{
+            font-size: 13px;
+        }
+        .container1{
+            width: 100%;
+            height: 600px;
+            background-color: rgb(207, 194, 194);
+            overflow-y: hidden;
+        }
+        
+   .couple1{
+    background-image: url(../images/couple1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-right: 8px;
+    margin-top: -90px;
+    margin-bottom: 0;
+   }
+.couple2{
+    background-image: url(../images/couple2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-top: -90px;
+
+}
+.couple3{
+    background-image: url(../images/couple3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-top: -90px;
+
+}
+
+.couple4{
+    background-image: url(../images/couple4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-top: -90px;
+
+}
+
+   .couple{
+    padding: 230px 0 0 0;
+    margin-top: 220px;
+    margin-left: 100px;
+    margin-bottom: 0;
+   }
+    .smile{padding: 230px 0 0 0;
+    margin-top: 220px;
+    margin-left: 50px;
+    margin-bottom: 0;
+   }
+   .bride{
+    padding: 230px 0 0 0;
+    margin-top: 220px;
+    margin-left: 130px;
+    margin-bottom: 0;
+   }
+   .matrimony{
+    margin-top: 2px;
+    margin-left: 130px;
+   }
+   .recently{
+margin-top: 70px;
+margin-bottom: -800px;
+   }
+   .fa-phone{
+    margin-right: 150px;
+    margin-bottom: 50px;
+   }
+   
+   fieldset{
+    border: 1px solid rgb(221, 75, 99);
+   height: 100px;
+margin-bottom: 10px;}
+.catering{
+    border-color: grey;
+}
+.stats{
+    margin-top: 20px;
+}
+   .pbox{
+    margin-left: 40px;
+    font-size: small;
+   }
+   .wedding{
+    margin-top: 15px;
+    margin-left: 40px;
+   }
+   .services{
+    margin-top: 30px;
+    margin-bottom: 15px;
+   }
+   .container2{width: 100%;
+    height: 400px;
+}
+   .container3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(226, 14, 120);
+   }
+   .container3 .box1{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-right: 3px;
+    
+   }
+   .container3 .box2{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-left: 3px;
+
+   }
+   .container3 .box3{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-right: 3px;
+
+   }
+   .container3 .box4{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+   }
+   .round1{padding-top: 180px;
+    margin-left: 90px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    clip-path: circle();
+   }
+   .round2{
+    padding-top: 180px;
+    margin-left: 90px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    clip-path: circle();
+   }
+   .round3{
+    padding-top: 180px;
+    margin-left: 90px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    clip-path: circle();
+   }
+   .round4{
+    padding-top: 180px;
+    margin-left: 90px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    clip-path: circle();
+   }
+   .boxno{
+    margin-left: 93px;
+    margin-top: -50px;
+   }
+   .boxpp{
+    margin-left: 85px;
+
+   }
+   .container4{
+    width: 100%;
+    height: 550px;
+   }
+   .choose1{
+    width: 300px;
+    height: 300px;
+background-image: url(../images/b3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+   }
+.choose1a,.choose2a,.choose3a{
+    width: 300px;
+    border: 1px solid grey;
+}
+  .choose2{width: 300px;
+   height: 300px;
+background-image: url(../images/b4.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+  }
+  .choose3{width: 300px;
+    height: 300px;
+background-image: url(../images/b5.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.choose{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.choosep{
+margin-left: 10px;}
+.container5{
+    width: 100%;
+    height: 450px;
+background-image: url(../images/b4.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgba(0,0,0,90);
+}
+.customersay{
+margin-top: 100px;
+margin-bottom: 40px;
+margin-left: 30px;
+color: rgb(192, 171, 171);
+}
+.customersayp{
+    color: grey;
+    margin-left: 30px;
+}
+.couplecircle1{
+width: 70px;
+height: 70px;
+margin-left: 200px ;
+clip-path: circle();
+background-image: url(../images/couple1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.customersayp2{
+    margin-top: 168px;
+    color: aliceblue;
+}
+.couplecircle2{
+    width: 70px;
+height: 70px;
+margin-left: 200px ;
+clip-path: circle();
+background-image: url(../images/couple2.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.name{
+    margin-top: 10px;
+color: aliceblue;
+margin-left: 172px;
+}
+.container6{
+    width: 100%;
+    height: 500px;
+}
+.couple1w{
+    width: 250px;
+    height: 350px;
+    background-image: url(../images/couple1.jpg);
+    background-position: center;
+     background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.couple1x{width: 250px;
+    height: 350px;
+    background-image: url(../images/couple2.jpg);
+    background-position: center;
+     background-size: cover;
+    background-repeat: no-repeat
+}
+    .couple1y{width: 250px;
+        height: 350px;
+        background-image: url(../images/couple3.jpg);
+        background-position: center;
+         background-size: cover;
+        background-repeat: no-repeat
+    }
+    .couple1z{width: 250px;
+        height: 350px;
+        background-image: url(../images/couple4.jpg);
+        background-position: center;
+         background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .happycouple2{
+     margin-top: 30px;
+     margin-bottom: 20px;
+    }
+    .name2{
+        margin-top: 10px;
+margin-left: 70px;
+margin-bottom: 0;
+    }
+.namep2{
+margin-left: 100px;
+font-size: 10px;
+}
+.container7{
+width: 100%;
+height: 120px;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+.footer1{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(226, 12, 76);
+}
+.footer2{
+width: 100px;
+height: 120px;
+background-color: rgb(245, 237, 240);
+}
+.subscribe{
+    margin-left: 115px;
+    margin-top: 35px;
+    position: relative;
+}
+.fa-subscribe{
+    position: absolute;
+    top: 50px;
+    bottom: -10px;
+    left: 70px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    font-size: larger;
+}
+
+.footeremail{
+    width: 380px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 35px;
+    outline: none;
+    border: none;
+}
+ .sharemail{
+    margin-top: 3px;
+    margin-left: 70px;
+ }
+ .container8{
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/b3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .matchfoot{margin-top: 90px;
+text-align: center; 
+position: relative;
+margin-left: 5px;
+}
+.matchpp{
+    text-align: center;
+}
+.fa-facebook{width: 40px;
+    height: 50px;
+    margin-left: 500px;
+    color: white;
+    font-size: 60px;
+}
+.fa-twitter{
+    width: 40px;
+    height: 50px;
+    margin-left: 310px;
+    color: white;
+    font-size: 60px;
+}
+.fa-google-plus{
+    width: 40px;
+    height: 50px;
+    margin-left: 130px;
+    color: white;
+    font-size: 60px;
+    
+}
+.fa-compass{
+    color: white;
+    width: 40px;
+    height: 50px;
+    margin-left: -265px;
+    color: white;
+    font-size: 60px;
+}
+.fa-linkedin{
+    width: 40px;
+    height: 50px;
+    margin-left: -25px;
+    color: white;
+    font-size: 60px;
+}
+.fa-vimeo{
+    color: white;
+    margin-left: -430px;
+
+}
+.giftfoot{
+    position: absolute;
+margin-top: -40px;
+margin-left: 545px;
+margin-right: 30px;
+}
