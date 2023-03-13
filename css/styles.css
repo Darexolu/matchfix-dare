@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
+    position: relative;
 }
 .navbar-nav{
     margin-right: 15px;
@@ -176,28 +177,94 @@ margin-right: -5px;
 margin-top: 70px;
 margin-bottom: -800px;
    }
-   .fa-phone{
-    margin-right: 150px;
+   
+   .fa-gift2{
+    color: black;
+    margin-left: 150px;
+   }
+   .faglass{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-top: 40px;
     margin-bottom: 50px;
    }
-   
-   fieldset{
-    border: 1px solid rgb(221, 75, 99);
-   height: 100px;
-margin-bottom: 10px;}
+   .fashake{
+    margin-left: 67px;
+   }
+   .fapicture{
+    padding-top: -90px;
+    margin-left: 70px;
+   }
+
+ 
+
+.field{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(221, 75, 99);
+    position: relative;
+}
+.field2{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(221, 75, 99);
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.fa-legend{position: absolute;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: -27px;
+    margin-top: 25px;
+    color: rgb(221, 75, 99);
+    z-index: 2;
+    background-color: white;
+    
+}
+
+
+
+legend.fa-phone{
+    padding-top: -90px;
+} 
 .catering{
+    margin-top: 15px;
+    margin-left: 30px;
+   
+}
+.cater{
     border-color: grey;
 }
 .stats{
     margin-top: 20px;
+    margin-bottom: 15px;
+}
+.matser{
+    margin-top: 15px;
+    margin-left: 30px;
 }
    .pbox{
     margin-left: 40px;
     font-size: small;
    }
    .wedding{
+    margin-top: 10px;
+    margin-left: 40px;
+   }
+   .decors{
     margin-top: 15px;
     margin-left: 40px;
+
+   }
+   .florist{
+    margin-left: 40px;
+    margin-top: 15px;
+   }
+   .bridal{
+    margin-left: 40px;
+    margin-top: 15px;
    }
    .services{
     margin-top: 30px;
@@ -216,6 +283,7 @@ margin-bottom: 10px;}
     height: 250px;
     background-color: white;
     margin-right: 3px;
+    position: relative;
     
    }
    .container3 .box2{
@@ -237,49 +305,126 @@ margin-bottom: 10px;}
     height: 250px;
     background-color: white;
    }
-   .round1{padding-top: 180px;
-    margin-left: 90px;
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    clip-path: circle();
+   
+ 
+   .round1{
+    height: 80px;
+    width: 80px;
+   border: 1px solid;
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 25px;
+   margin-left: 80px;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    }
-   .round2{
-    padding-top: 180px;
-    margin-left: 90px;
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    clip-path: circle();
+   .fapics{
+       color: rgb(226, 14, 120);
    }
-   .round3{
-    padding-top: 180px;
-    margin-left: 90px;
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    clip-path: circle();
-   }
+  .boxno1{
+    padding-top: 120px;
+    margin-left: 80px;
+}
+    .boxpp1{
+        margin-left: 60px;
+
+    }
+    .round2{height: 80px;
+    width: 80px;
+   border: 1px solid;
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 25px;
+   margin-left: 80px;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+
+   .boxno2{padding-top: 120px;
+    margin-left: 87px;}
+    .boxpp2{
+        margin-left: 60px;
+    }
+    .fa-users{
+        color: rgb(226, 14, 120);
+    }
+    .round3{
+        height: 80px;
+    width: 80px;
+   border: 1px solid;
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 25px;
+   margin-left: 80px;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    }
+    .boxno3{
+        padding-top: 120px;
+        margin-left: 87px;
+    }
+    .boxpp3{
+        margin-left: 85px; 
+    }
+    .fa-usd{
+        color: rgb(226, 14, 120);
+    }
    .round4{
-    padding-top: 180px;
-    margin-left: 90px;
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    clip-path: circle();
+    height: 80px;
+    width: 80px;
+   border: 1px solid;
+   border-radius: 50%;
+   background-color: black;
+   margin-top: 25px;
+   margin-left: 80px;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    }
-   .boxno{
-    margin-left: 93px;
-    margin-top: -50px;
+   .boxno4{
+    padding-top: 120px;
+        margin-left: 95px;
    }
-   .boxpp{
-    margin-left: 85px;
+   .boxpp4{
+    margin-left: 70px; 
 
    }
+
+
+/* work in progress */
+
    .container4{
     width: 100%;
-    height: 550px;
+    height: 630px;
    }
+  #display{
+    display: none;
+    margin-left: 350px;
+    margin-top: 20px;
+    position: absolute;
+    
+
+  }
+  #display input{
+    width: 350px;
+    outline: none;
+  }
+  #display button{
+    margin-top: 5px;
+     border: 0;
+  }
+
+
+/* work in progress */
+
+
+
    .choose1{
     width: 300px;
     height: 300px;
@@ -311,8 +456,9 @@ margin-top: 20px;
 margin-bottom: 10px;
 }
 .choosep{
-margin-left: 10px;}
-.container5{
+margin-left: 10px;
+}
+.container5{position: relative;
     width: 100%;
     height: 450px;
 background-image: url(../images/b4.jpg);
@@ -321,6 +467,18 @@ background-size: cover;
 background-repeat: no-repeat;
 background-color: rgba(0,0,0,90);
 }
+.overlay{position: absolute;
+    width: 100%;
+    height: 440px;
+background-color: rgba(0, 0, 0, 9.9);
+margin-top: -368px;
+margin-left: 0px;
+margin-right: 1000px;
+margin-bottom: 10px;
+padding-top: 0px;
+z-index: -1;
+}
+
 .customersay{
 margin-top: 100px;
 margin-bottom: 40px;
@@ -440,16 +598,25 @@ background-color: rgb(245, 237, 240);
 }
 
 .footeremail{
-    width: 380px;
+    position: relative;
+    width: 400px;
     height: 40px;
     margin-left: 100px;
     margin-top: 35px;
     outline: none;
     border: none;
 }
+.fasubemail{padding: 12px 0px 12px 8px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-left: -40px;
+    margin-top: 34px;
+    width: 40px;
+}
  .sharemail{
     margin-top: 3px;
-    margin-left: 70px;
+    margin-left: 110px;
  }
  .container8{
     width: 100%;
